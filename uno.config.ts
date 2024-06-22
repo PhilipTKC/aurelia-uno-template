@@ -2,6 +2,13 @@
 import { defineConfig, presetTypography, presetAttributify, presetWebFonts, presetUno, presetIcons } from 'unocss';
 
 export default defineConfig({
+  content: {
+    pipeline: {
+      include: [
+        /\.([jt]sx?|html?)($|\?)/,
+      ],
+    },
+  },
   theme: {
     fontFamily: {
       sans: '\'Nunito\', sans-serif',

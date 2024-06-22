@@ -6,7 +6,7 @@ import aurelia from '@aurelia/vite-plugin';
 export default defineConfig({
   plugins: [
     UnoCSS(),
-    aurelia({ pre: true, useDev: true })
+    aurelia({ useDev: true })
   ],
   esbuild: {
     target: "es2022"

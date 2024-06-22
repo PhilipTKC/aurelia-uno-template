@@ -2,7 +2,7 @@ import { IEventAggregator, resolve } from 'aurelia';
 
 import { IRoute } from '@aurelia/router';
 
-import "uno.css";
+import "virtual:uno.css";
 import '@unocss/reset/tailwind.css';
 
 import nProgress from "nprogress";

@@ -27,13 +27,13 @@ export class MyApp {
   subscribeNavigationStart() {
     this.ea.subscribe('au:router:navigation-start', () => {
       nProgress.start();
-    })
+    });
   }
 
   subscribeNavigationComplete() {
     this.ea.subscribe('au:router:navigation-end', () => {
       window.scrollTo(0, 0);
       nProgress.done();
-    })
+    });
   }
 }

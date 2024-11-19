@@ -9,20 +9,20 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@aurelia/router": "latest",
-    "@unocss/reset": "^0.61.0",
+    "@unocss/reset": "^0.64.1",
     "aurelia": "latest",
     "nprogress": "^0.2.0",
-    "unocss": "^0.61.0"
+    "unocss": "^0.64.1"
   },
   "devDependencies": {
     "@aurelia/vite-plugin": "latest",
-    "@biomejs/biome": "1.8.3",
-    "@types/node": "^20.1.1",
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "^22.9.0",
     "@types/nprogress": "^0.2.3",
     "rimraf": "^6.0.1",
-    "tslib": "^2.5.0",
-    "typescript": "^5.5.3",
-    "vite": "^5.2.12"
+    "tslib": "^2.8.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
   },
   "type": "module",
   "scripts": {

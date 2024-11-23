@@ -1,10 +1,10 @@
 {
-  "name": "aurelia-vite-uno-template",
-  "description": "",
+  "name": "aurelia-vite-uno",
+  "description": "Aurelia 2 with Vite and UnoCSS",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PhilipTKC/aurelia-uno-template"
+    "url": "https://github.com/PhilipTKC/aurelia-vite-uno"
   },
   "license": "UNLICENSED",
   "dependencies": {

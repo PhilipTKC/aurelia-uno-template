@@ -1,5 +1,5 @@
 declare module '*.html' {
-  import { IContainer, PartialBindableDefinition } from 'aurelia';
+  import type { IContainer, PartialBindableDefinition } from 'aurelia';
   export const name: string;
   export const template: string;
   export default template;

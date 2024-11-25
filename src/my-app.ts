@@ -1,6 +1,6 @@
 import { IEventAggregator, resolve } from 'aurelia';
 
-import { IRoute } from '@aurelia/router';
+import type { IRoute } from '@aurelia/router';
 
 import "virtual:uno.css";
 import '@unocss/reset/tailwind.css';
